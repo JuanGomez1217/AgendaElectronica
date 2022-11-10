@@ -1,0 +1,30 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Process = void 0;
+var Process;
+(function (Process) {
+    Process[Process["getHotels"] = 101] = "getHotels";
+    Process[Process["getHotelsFilter"] = 117] = "getHotelsFilter";
+    Process[Process["getHotelsForStart"] = 118] = "getHotelsForStart";
+    Process[Process["getHotelForId"] = 102] = "getHotelForId";
+    Process[Process["createHotel"] = 103] = "createHotel";
+    Process[Process["updatedHotel"] = 104] = "updatedHotel";
+    Process[Process["removeHotel"] = 105] = "removeHotel";
+    Process[Process["getCalificacionForHotel"] = 106] = "getCalificacionForHotel";
+    Process[Process["getCalificacionForId"] = 107] = "getCalificacionForId";
+    Process[Process["createCalificacion"] = 108] = "createCalificacion";
+    Process[Process["updatedcalificacion"] = 109] = "updatedcalificacion";
+    Process[Process["removeCalificacion"] = 110] = "removeCalificacion";
+    Process[Process["getUsuarios"] = 111] = "getUsuarios";
+    Process[Process["getUserForId"] = 112] = "getUserForId";
+    Process[Process["createUsuario"] = 113] = "createUsuario";
+    Process[Process["updatedUsuario"] = 114] = "updatedUsuario";
+    Process[Process["removeUsuario"] = 115] = "removeUsuario";
+    Process[Process["login"] = 116] = "login";
+    Process[Process["getimageForID"] = 119] = "getimageForID";
+    Process[Process["createImageForID"] = 120] = "createImageForID";
+    Process[Process["createImage"] = 121] = "createImage";
+    Process[Process["updateImage"] = 122] = "updateImage";
+    Process[Process["removeImage"] = 123] = "removeImage";
+})(Process = exports.Process || (exports.Process = {}));
+//# sourceMappingURL=process.enum.js.map
