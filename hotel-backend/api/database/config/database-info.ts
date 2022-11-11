@@ -2,11 +2,11 @@ import { Options, Sequelize } from "sequelize";
 
 const config: Options = {
     dialect: 'mysql',
-    host: 'localhost',
-    port: 3306,
+    host: 'host.docker.internal',
+    port: 23306,
     database: 'cheil',
     username: 'root',
-    password: ''
+    password: 'sa12345678'
 }
 
 export const sequelize = new Sequelize(config);

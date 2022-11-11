@@ -1,3 +1,3 @@
 export const global = {
-  'url' : 'http://localhost:3000/api/envio'
+  'url' : 'http://host.docker.internal:8001/api/envio'
 }

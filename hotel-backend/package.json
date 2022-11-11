@@ -4,8 +4,10 @@
   "description": "Prueba tecnica Cheil",
   "main": "index.ts",
   "scripts": {
-    "start": "tsc && nodemon dist/api/index.js",
-    "dev": "nodemon api/index.ts --exec ts-node"
+    "start": "tsc && node dist/api/index.js",
+    "dev": "nodemon api/index.ts --exec ts-node",
+    "docker:start": "docker-compose up --build",
+    "docker:stop": "docker-compose down"
   },
   "author": "Cristian Arnulfo Murcia Guzman",
   "license": "MIT",

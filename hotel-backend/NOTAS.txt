@@ -1,0 +1,2 @@
+1. docker build -t rest-node
+2. docker run -p 8001:3000 rest-node
